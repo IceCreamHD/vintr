@@ -1,7 +1,19 @@
-var promoButton = document.getElementById('vi-button-promo');
-promoButton.addEventListener('click', createElement);
+/*var promoButton = document.getElementById('vi-button-promo');
+promoButton.addEventListener('click', scrollTo);
 
-function createElement() {
-  var div = document.createElement('div');
-  div.textContent = null;
+/* function scrollTo() {
+var jumpTo = document.getElementById('vi-jumpto');
+  jumpTo.scrollIntoView;
+}
+
+var jumpTo = document.getElementById('vi-jumpto'); */
+
+/* function viClick() {
+  window.location.href = "#vi-target-one"
+} */
+
+function viClick() {
+document.getElementById('vi-target-one').scrollIntoView({
+  behavior: 'smooth'
+});
 }

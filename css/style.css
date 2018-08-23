@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	// padding-top: 60px;
+	padding-top: 60px;
 }
 
 /* This guy makes the whole thing responsive */
@@ -15,7 +15,15 @@ body {
 }
 
 .vi-relative {
-	position: relative !important;
+	position: relative!important;
+}
+
+.vi-fixed {
+	position: fixed!important;
+}
+
+.vi-absolute {
+	position: absolute!important;
 }
 
 .vi-header {
@@ -280,7 +288,7 @@ article {
 	}
 	#promopic {display: none;}
 	.vi-promo-post {height: 100vh;}
-	// body {padding-top: 30px;}
+	body {padding-top: 30px;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -449,4 +457,9 @@ footer {
 
 .vi-column {
 	flex-direction: column;
+}
+
+#vi-target-one:onclick {
+	padding-top: 60px;
+	transition: background-color 0.5s ease;
 }
